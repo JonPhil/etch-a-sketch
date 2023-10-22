@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Etch-A-Sketch</h1>
+    <div class="main">
+        <div class="inputs">
+            <form id="grid">
+                <input placeholder="Grid Size (Min 1, Max 100)" 
+                type="number" id="grid-size" min="1" max="100"/>
+                <input type="submit" id="submit">
+            </form>
+            <input type="range" id="color" class="stats" hidden/> 
+            <button id="clear">Clear Grid</button>
+        </div>
+        <div class="container">
+        </div>
+    </div>
+    <script src="etch.js"></script>
+</body>
+</html>
+
+        
+                
+

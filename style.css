@@ -1,0 +1,58 @@
+@font-face {
+    font-family: neon;
+    src: url(fonts/Neon-e2wg.ttf);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(197, 44, 44);
+    margin: 0;
+    max-height: 100vh;
+}
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: neon;
+  font-size: 40px;
+  color: yellow;
+  margin-top: 15px;
+
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.inputs {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 640px;
+    margin: auto;
+}
+#grid-size {
+    height: 20px;
+    font-size: 16px;
+    width: 204px;
+}
+#submit {
+    display: none;
+}
+#clear {
+    width: 100px;
+    border-radius: 10px;
+    height: 35px;
+    font-size: 17px;
+}
+.container {
+    display: grid;
+    height: 640px;
+    width: 640px;
+    margin: auto;
+    margin-top: 10px;
+}
+.box {
+    background-color: white;
+    border: 1px solid black;
+}
